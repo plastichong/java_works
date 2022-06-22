@@ -1,0 +1,17 @@
+package constant;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//final 키워드 사용
+		
+		final int month = 12;
+		
+//		month = 6;
+		System.out.println(month);
+		
+		
+	}
+
+}
