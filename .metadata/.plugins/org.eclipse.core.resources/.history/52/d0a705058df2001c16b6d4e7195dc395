@@ -1,0 +1,17 @@
+package type;
+
+public class PrintFormat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int year = 2022;
+		System.out.printf("올해는 %d년 입니다", year);
+		
+		float weight = 63.7f;
+		
+		System.out.printf("그의 몸무게는 %fkg입니다", weight);
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package scannerEx;
+import java.util.*;
+
+public class BonusPoint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//보너스 포인트 == 가격*적립율
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int price = 10000;
+		int bonusPoint = 0;
+		double bonusRatio = 0.05;
+		
+		bonusPoint = (int)(price * bonusRatio);
+		System.out.println(bonusPoint);
+		
+		sc.close();
+	}
+
+}

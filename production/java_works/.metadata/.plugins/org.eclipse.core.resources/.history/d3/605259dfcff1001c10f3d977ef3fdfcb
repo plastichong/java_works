@@ -1,0 +1,17 @@
+package constant;
+import java.util.*;
+
+public class KmToMile {
+
+	public static void main(String[] args) {
+		//KM to mile
+		final double RATE_KPH_MPH = 1.609344;
+		double kph = 0.0;
+		double mph = 0.0;
+		
+		// mph == kph / RATE_KPH_MPH
+		
+		
+	}
+
+}

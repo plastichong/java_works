@@ -1,0 +1,24 @@
+package operator;
+
+public class Operator2 {
+
+	public static void main(String[] args) {
+
+		int num = 10;
+		int val = 0;
+		
+//		num++;
+		val = ++num;
+		
+		System.out.println(val);
+		System.out.println(num);
+		
+		System.out.println("============");
+		
+		val = --num;
+		System.out.println(val);
+		System.out.println(num);
+		
+	}
+
+}
