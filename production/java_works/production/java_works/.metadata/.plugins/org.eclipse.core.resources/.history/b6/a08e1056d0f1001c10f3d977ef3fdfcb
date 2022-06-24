@@ -1,0 +1,21 @@
+package constant;
+import java.util.*;
+
+public class KmToMile {
+
+	public static void main(String[] args) {
+		//KM to mile
+		Scanner sc = new Scanner(System.in);
+		final double RATE_KPH_MPH = 1.609344;
+		
+		System.out.printf("km 를 입력하세요");
+		double kph = sc.nextDouble();
+		double mph = 0.0;
+		
+		// mph == kph / RATE_KPH_MPH
+		
+		
+		mph = kph/RATE_KPH_MPH;
+	}
+
+}

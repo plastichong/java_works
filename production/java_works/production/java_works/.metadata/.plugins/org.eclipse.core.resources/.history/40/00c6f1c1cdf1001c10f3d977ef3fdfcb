@@ -1,0 +1,15 @@
+package constant;
+import java.util.Scanner;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("입력");
+		int num = sc.nextInt();
+		System.out.println(num);
+	}
+
+}
